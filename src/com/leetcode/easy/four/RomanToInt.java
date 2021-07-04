@@ -26,15 +26,17 @@ public class RomanToInt {
 		System.out.println(romanToInt("MCMXCIV"));
 	}
 
+	
 	static {
-		romKeyVal = new HashMap<>();
-		romKeyVal.put('I', 1);
-		romKeyVal.put('V', 5);
-		romKeyVal.put('L', 50);
-		romKeyVal.put('X', 10);
-		romKeyVal.put('C', 100);
-		romKeyVal.put('D', 500);
-		romKeyVal.put('M', 1000);
+	     romKeyVal = new HashMap<>();   
+	     romKeyVal.put('I', 1);
+	     romKeyVal.put('V', 5);
+	     romKeyVal.put('L', 50);
+	     romKeyVal.put('X', 10);
+	     romKeyVal.put('C', 100);
+	     romKeyVal.put('D', 500);
+	     romKeyVal.put('M', 1000);
+
 	}
 
 	public static int romanToInt(String s) {
