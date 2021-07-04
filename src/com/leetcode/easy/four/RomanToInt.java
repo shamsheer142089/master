@@ -26,9 +26,8 @@ public class RomanToInt {
 		System.out.println(romanToInt("MCMXCIV"));
 	}
 	
-	private final static Map<Character,Integer> romKeyVal;
 	static {
-		 romKeyVal = new HashMap<>();   
+	     romKeyVal = new HashMap<>();   
 	     romKeyVal.put('I', 1);
 	     romKeyVal.put('V', 5);
 	     romKeyVal.put('L', 50);
