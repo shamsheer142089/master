@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.leetcode.easy.four;
+package main.leetcode.easy.four;
 
 import java.util.HashMap;
 import java.util.Map;

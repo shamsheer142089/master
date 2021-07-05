@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.leetcode.easy.two;
+package main.leetcode.easy.two;
 
 /**
  * @author Admin
